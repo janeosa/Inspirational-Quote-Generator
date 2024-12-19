@@ -1,4 +1,77 @@
 body {
-  background: pink;
+  background: linear-gradient(to top, #ffeff9 0%, #bfd8ff 99%, #bfd8ff 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Jost", serif;
+}
+a {
+  color: #a8c6f7;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 40px;
+}
+h1 {
+  font-family: "Jost", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
   text-align: center;
+  color: #fff;
+}
+
+form {
+  padding: 25px;
+  background-color: #ecf0fe;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  font-family: "Jost", serif;
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #fff;
+  width: 80%;
+  border-radius: 40px;
+  line-height: 28px;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #bfd8ff;
+  color: #fff;
+  border: none;
+  font-family: "Jost", serif;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 40px;
+  padding: 14px 24px;
+}
+
+.quote {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid #bfd8ff;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
 }

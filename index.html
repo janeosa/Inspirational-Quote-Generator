@@ -4,43 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Inspirational Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header><h1>AI Inspirational Quote Generator</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic you want your quote to be based on"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </main>
-    <div>
-      Life isn't about finding yourself.
-      <br />
-      Life is about creating yourself.
+    <div class="container">
+      <header><h1>AI Inspirational Quote Generator</h1></header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic you want your quote to be based on"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </main>
+      <div class="quote">
+        Life isn't about finding yourself.
+        <br />
+        Life is about creating yourself.
+      </div>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/janeosa/" target="_blank">Jane Ighodaro</a>,
+        is open sourced on
+        <a
+          href="https://github.com/janeosa/Inspirational-Quote-Generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a
+          href="https://inspirational-quote-generator-by-jane.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
     </div>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/janeosa/" target="_blank">Jane Ighodaro</a>,
-      is open sourced on
-      <a
-        href="https://github.com/janeosa/Inspirational-Quote-Generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a
-        href="https://inspirational-quote-generator-by-jane.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>
