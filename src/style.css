@@ -70,6 +70,9 @@ form {
   border-radius: 5px;
 }
 
+.quote strong {
+  color: #a8c6f7;
+}
 footer {
   text-align: center;
   font-size: 14px;
