@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Inspirational Quote Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +17,7 @@
     <div class="container">
       <header><h1>AI Inspirational Quote Generator</h1></header>
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter the topic you want your quote to be based on"
@@ -28,11 +29,7 @@
           <input type="submit" class="submit-button" />
         </form>
       </main>
-      <div class="quote">
-        Life isn't about finding yourself.
-        <br />
-        Life is about creating yourself.
-      </div>
+      <div class="quote" id="quote"></div>
       <footer>
         This project was coded by
         <a href="https://github.com/janeosa/" target="_blank">Jane Ighodaro</a>,
