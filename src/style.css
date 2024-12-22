@@ -28,14 +28,20 @@ h1 {
   text-align: center;
   color: #fff;
 }
-
-form {
-  padding: 25px;
+.form-container {
+  padding: 20px;
   background-color: #ecf0fe;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  display: flex;
   margin-bottom: 30px;
+}
+form {
+  display: flex;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 15px;
+  font-size: 13px;
 }
 
 .instructions {
@@ -69,7 +75,9 @@ form {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 5px;
 }
-
+.hidden {
+  display: none;
+}
 .quote strong {
   color: #a8c6f7;
 }
@@ -77,4 +85,17 @@ footer {
   text-align: center;
   font-size: 14px;
   margin-top: 40px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

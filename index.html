@@ -18,20 +18,23 @@
     <div class="container">
       <header><h1>AI Inspirational Quote Generator</h1></header>
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic you want your quote to be based on"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic you want your quote to be based on"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flowers, Family, Life etc</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
-      <div class="quote" id="quote"></div>
       <footer>
         This project was coded by
         <a href="https://github.com/janeosa/" target="_blank">Jane Ighodaro</a>,
