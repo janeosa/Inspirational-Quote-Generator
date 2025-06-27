@@ -99,3 +99,26 @@ footer {
     visibility: hidden;
   }
 }
+@media (max-width: 700px) {
+  form {
+    display: block;
+  }
+  #quote-generator-form {
+    width: 100%;
+  }
+  #quote-generator-form .instructions {
+    font-size: 12px;
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .submit-button {
+    width: 40%;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .hint {
+    text-align: center;
+  }
+}
